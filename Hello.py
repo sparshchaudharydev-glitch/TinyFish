@@ -6,7 +6,6 @@ load_dotenv()
 
 os.environ["TINYFISH_RUNTIME_ATTEMPT_ID"] = "99a66dae-50ff-4867-806a-01aa01585f6c"
 
-# Initialize client
 api_key = TinyFish()
 
 response = api_key.search.query(
